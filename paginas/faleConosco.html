@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="/estilo/estilo.css">
+</head>
+<body>
+    <div class="topo">
+        <header class="cabecalho">
+            <a href="/index.html"><img class="logo" src="/icones/logo.png" alt="logo">
+            </a>
+                <h3>Marmita Fit</h3>
+            <ul class="lista__links">
+                <a href="/index.html"><li>Home</li></a>
+                <a href="/paginas/planos.html"><li>Planos</li></a>
+                <a href="./sobre.html"><li>Sobre Nós</li></a>
+                <a href="./faleConosco.html"><li>Fale Conosco</li></a>
+            </ul>
+        </header>
+    </div> 
+   <div class="container__formulario">
+    <form action="" class="formulario">
+        
+        <div class="input__label">
+            <label for="" class="label">Nome:</label>
+            <br>
+            <input type="text" placeholder="Digite seu nome" class="input">
+        </div>
+        <div class="input__label">
+            <label for="" class="label">E-Mail:</label>
+            <br>
+            <input type="text" placeholder="Digite seu E-Mail" class="input">
+        </div>
+        <div class="input__label">
+            <label for="" class="label">Telefone:</label>
+            <br>
+            <input type="text" placeholder="Digite seu telefone" class="input">
+        </div>
+        <div class="input area">
+            <label for="" class="label">Escreva a mensagem</label>
+            <br>
+            <textarea name="" id="" placeholder="(maximo de 560 caracteres)"
+            rows="8" class="area__texto" maxlength="560"></textarea>
+        </div>
+        <div class="botoes">
+            <button type="reset" class="botao">Apagar</button>
+            <button type="submit" class="botao" onclick=enviado()>Enviar</button>
+        </div>
+
+    </form>
+   </div>
+   <script>
+   function enviado(){
+    window.alert("Formulario enviado")
+   }
+   </script>
+</body>
+</html>

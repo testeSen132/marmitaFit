@@ -97,7 +97,7 @@ a:hover{
 }
 
 .conteudo{
-    transition: 1s;
+    transition: 0.4s;
     display: flex;
     text-align: center;
     flex-wrap: wrap;
